@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" thread-count="5">
-  <test  name="Test">
-  	
+<suite name="Suite" thread-count="5" parallel="tests">
+ 
+  <test  name="All Tests">
+  	  <classes>
+      <class name="Tests.TestScenario24and25"/>
+      <class name="Tests.TestScenario09and10and11"/>
+      <class name="Tests.TestScenario01and02and04and05"/>
+      <class name="Tests.TestScenario14"/>
+      <class name="Tests.TestScenario36"/>
+      <class name="Tests.TestScenario12and13"/>
+      <class name="Tests.TestScenario15"/>
+      <class name="Tests.TestScenario37"/>
+      <class name="Tests.TestScenario38"/>
+      <class name="Tests.TestScenario39"/>
+      <class name="Tests.TestScenario32"/>
+      <class name="Tests.TestScenario33"/>
+      <class name="Tests.TestScenario34"/>
+      <class name="Tests.TestScenario35"/>
+      <class name="Tests.TestScenario18"/>
+      <class name="Tests.TestScenario19"/>
+      <class name="Tests.TestScenario16and17"/>
+      <class name="Tests.TestScenario40"/>
+      <class name="Tests.TestScenario41"/>
+      <class name="Tests.TestScenario20"/>
+      <class name="Tests.TestScenario42"/>
+      <class name="Tests.TestScenario03"/>
+      <class name="Tests.TestScenario47"/>
+      <class name="Tests.TestScenario48"/>
+      <class name="Tests.TestScenario49"/>
+      <class name="Tests.TestScenario06"/>
+      <class name="Tests.TestScenario28"/>
+      <class name="Tests.TestScenario21"/>
+      <class name="Tests.TestScenario43"/>
+      <class name="Tests.TestScenario22"/>
+      <class name="Tests.TestScenario44"/>
+      <class name="Tests.TestScenario23"/>
+      <class name="Tests.TestScenario30and31"/>
+      <class name="Tests.TestScenario45"/>
+      <class name="Tests.TestScenario46"/>
+      <class name="Tests.TestScenario07"/>
+      <class name="Tests.TestScenario29"/>
+      <class name="Tests.TestScenario08"/>
+      <class name="Tests.TestScenario26and27"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
