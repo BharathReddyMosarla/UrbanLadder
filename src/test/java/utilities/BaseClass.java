@@ -28,8 +28,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -56,7 +56,7 @@ public class BaseClass
 	public static ExtentTest test;
 
 	
-	@BeforeSuite
+	@BeforeClass
 	public void init() throws Exception
 	{
 		// for Reports initialization
@@ -281,7 +281,7 @@ public class BaseClass
         }
     }
 
-    @AfterSuite
+    @AfterClass
     public void reportGenerate()
     { 
     	driver.close();
